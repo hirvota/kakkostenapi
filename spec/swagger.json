@@ -28,7 +28,7 @@
         "operationId" : "searchInventory",
         "description" : "By passing in the appropriate options, you can search for\navailable inventory in the system\n",
         "produces" : [ "application/json" ],
-        "parameters" : [ {
+        "i" : [ {
           "in" : "query",
           "name" : "searchString",
           "description" : "pass an optional search string for looking up inventory",
